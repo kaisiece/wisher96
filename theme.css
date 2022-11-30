@@ -1,0 +1,67 @@
+/* Wisher96 "Icecolor" for Windows 96 V3.
+   By oehz on Github.
+*/
+/* TITLEBAR + TITLEBAR BUTTONS */
+.window-dlg.active>.titlebar {
+    background: #3a6ea5;
+}
+.titlebar {
+    height: 22px;
+    font-size: 13px;
+    background: #a1a192;
+}
+.titlebar-closebutton, .titlebar-maxbutton, .titlebar-minbutton {
+    background-color: #a1a192;
+    border-color: #bdbdb3;
+}
+.window-dlg.active>.titlebar .titlebar-closebutton, .titlebar-maxbutton, .titlebar-minbutton {
+    background-color: #3a6ea5;
+    border: 1px solid;
+    border-color: #89a8c9;
+}
+.titlebar-minbutton {
+    background-image: url($minbtn$);
+}
+.titlebar-maxbutton {
+    width: 16px;
+    background-image: url($maxbtn$);
+}
+.titlebar-closebutton {
+    background-image: url($closebtn$);
+}
+/* WINDOW */
+.window-dlg:not(.ui-sortable-helper) {
+    box-shadow: none;
+    border-radius: 1px;
+    border: 1px solid;
+    border-color: #afaf9f;
+    padding: 0px!important;
+}
+.window-html-content {
+    background-color: #ebebe4;
+}
+.window-dlg.active :not(.ui-resizable), .window-dlg.active {
+    border-color: #4d83bc;
+}
+.window-html {
+    padding: 3px;
+    background-color: #3a6ea5;
+}
+/* BUTTONS */
+/* SOON */
+
+/* MISC */
+.app-winver>.header {
+    background: url($winver$);
+    image-rendering: pixelated;
+}
+.app-winver>.body:after {
+    content: 'This installation is using the Wisher96 "Icecolor" theme by oehz.';
+}
+.start_button {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACjSURBVDhPpVPbEcAgCAP3H8rNLDnlIdbqXfPRKCVESuXWGv3BVQFmnpJqrWN1KJCFGSjEwlKjgSdEMRaWMG2IymATgLN4QQiW6H468hugaNLEtgU8lpchaC2IoruDw0kWMRCCZXLftuDhPDQRYwirkX8PVfQULcBDEabQM8G6voFMwd33Qj+gOiuwPf5IX7ACECj3V45sEHPsLtwIM6D5eZ2JHlF8WpWzjq7oAAAAAElFTkSuQmCC);
+}
+
+.shell36-start-menu .sidebar {
+    background: linear-gradient(to bottom, rgb(0,0,256), rgb(0, 0, 128));
+}
